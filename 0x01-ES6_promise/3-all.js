@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 // Importing functions from the utils.js module
 import uploadPhoto from './utils.js';
 import createUser from './utils.js';
