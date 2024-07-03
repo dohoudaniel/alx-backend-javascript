@@ -1,7 +1,6 @@
 /* eslint-disable no-console */
 // Importing functions from the utils.js module
-import uploadPhoto from './utils.js';
-import createUser from './utils.js';
+import { uploadPhoto, createUser } from './utils';
 
 export default function handleProfileSignup() {
   const photo = uploadPhoto();
