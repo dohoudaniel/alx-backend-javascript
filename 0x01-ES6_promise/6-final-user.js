@@ -19,6 +19,7 @@ export default function handleProfileSignup(firstName, lastName, fileName) {
           // 'status: status_of_the_promise, value: error returned by the Promise'
           result.push({ status: element.status, value: `${element.reason}` });
         }
+        return result;
       });
     });
 }
