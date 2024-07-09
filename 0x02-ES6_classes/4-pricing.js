@@ -1,4 +1,5 @@
-import Currency from './3-currency';
+// This line of code is not needed since it is called from 4-main.js
+// import Currency from 3-currency
 
 export default class Pricing {
   constructor(amount, currency) {
