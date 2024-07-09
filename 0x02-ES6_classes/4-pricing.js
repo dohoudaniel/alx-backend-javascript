@@ -2,8 +2,8 @@ import Currency from './3-currency';
 
 export default class Pricing {
   constructor(amount, currency) {
-    if (!Number.isInteger(amount)) throw TypeError('Amount must be a number');
-    if (typeof currency !== 'string') throw TypeError('Currency must be a string');
+    // if (!Number.isInteger(amount)) throw TypeError('Amount must be a number');
+    // if (typeof currency !== 'string') throw TypeError('Currency must be a string');
     this._amount = amount;
     this._currency = currency;
   }
@@ -14,7 +14,7 @@ export default class Pricing {
   }
 
   set amount(value) {
-    if (!Number.isInteger(value)) throw TypeError('Amount must be a number');
+    // if (!Number.isInteger(value)) throw TypeError('Amount must be a number');
     this._amount = value;
   }
 
@@ -24,7 +24,7 @@ export default class Pricing {
   }
 
   set currency(value) {
-    if (typeof value !== 'string') throw TypeError('Name must be a string');
+    // if (typeof value !== 'string') throw TypeError('Name must be a string');
     this._currency = value;
   }
 
@@ -33,8 +33,8 @@ export default class Pricing {
   }
 
   static convertPrice(amount, conversionRate) {
-    if (!Number.isInteger(amount)) throw TypeError('Amount must be a number');
-    if (!Number.isInteger(conversionRate)) throw TypeError('Amount must be a number');
+    // if (!Number.isInteger(amount)) throw TypeError('Amount must be a number');
+    // if (!Number.isInteger(conversionRate)) throw TypeError('Amount must be a number');
     return (amount * conversionRate);
   }
 }
