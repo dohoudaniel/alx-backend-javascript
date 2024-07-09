@@ -7,6 +7,7 @@ export default class Car {
 
   // This method returns a new object of the class
   cloneCar() {
-    return new this.constructor(this._brand, this._motor, this._color);
+    return new Car(this._brand, this._motor, this._color);
+    // return new this.constructor(this._brand, this._motor, this._color);
   }
 }
