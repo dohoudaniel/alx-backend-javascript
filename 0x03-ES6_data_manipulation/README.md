@@ -1,0 +1,89 @@
+#### 0x03. ES6 Data Manipulation
+
+In this project, I learn about the basics of several data types in JavaScript ES6, and how to manipulate them using their methods, and their structures to my advantage.
+
+Some of the concepts I learned in this project are:
+- Mutable Data Structures:
+    - Arrays
+    - Objects
+    - Sets
+    - Maps
+    - WeakSets
+    - WeakMaps
+- Immutable Data Structures
+    - Strings
+    - Booleans
+    - Numbers
+    - Null
+    - Undefined
+    - BigInt
+    - Symbols
+- [The Immutable.js Library](https://immutable-js.com/)
+- Arrays:
+    - The Array Constructor
+    - Array methods:
+        - `push()`
+        - `pop()`
+        - `unshift()`
+        - `shift()`
+        - `indexOf()`
+        - `includes()`
+        - `filter()`
+        - `reduce()`
+        - `concat()`
+        - `join()`
+        - `slice()`
+        - `splice()`
+        - `sort()`
+        - `reverse()`
+        - `.length()`
+        - `map()`
+        - `some()`
+        - `of()`
+        - `every()`
+        - `from()`
+- Typed Arrays
+- Array Buffer
+- Sets
+    - The Set Constructor
+    - Set Methods:
+        - `add()`
+        - `delete()`
+        - `clear()`
+        - `has()`
+        - `size()`
+    - Converting a Set To An Array (use the Spread Operator (`...`))
+    - Converting an Array To A Set (Using the Set constructor)
+- Maps
+    - The Map Constructor
+    - How A Map is different from an Object
+    - Map Methods:
+        - `set()`
+        - `get()`
+        - `has()`
+        - `delete()`
+        - `clear()`
+        - `size()`
+    - Converting a May To An Array of key-value pairs:
+    - Converting an Array of key-value To A Map (Using the Set constructor)
+        - use the Spread Operator (`...`)
+        - `Array.from()`
+    - Special Features of Maps
+        - Maps can use `Objects` as keys
+        - Maps preserves the order of insertion
+- WeakMaps
+    - The WeakMap Constructor
+    - Rules of a WeakMap:
+        - Keys must be objects
+        - No provision to iterate over their keys or values
+        - Efficient memory management
+    - What makes a Map different from a WeakMap
+    - WeakMaps Methods:
+        - `set()`
+        - `get()`
+        - `has()`
+        - `delete()`
+- Array manipulation and transformation functions:
+    - The `map` function
+    - The `filter` function
+    - The `reduce` function
