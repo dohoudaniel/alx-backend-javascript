@@ -7,7 +7,7 @@ export default function cleanSet(set, startString) {
   for (const value of set) {
     // Checking if value starts with startString
     if (value.startsWith(startString)) {
-      cleanSet.push(value.subString(startString.length));
+      cleanSet.push(value.substring(startString.length));
     }
   }
   // Join the final array with a hyphen and a resulting string
