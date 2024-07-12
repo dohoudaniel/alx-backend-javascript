@@ -1,9 +1,7 @@
 export default function getListStudentIds(argument) {
-  if (typeof argument !== 'object') {
+  if (!Array.isArray(argument)) {
     return [];
-  } else {
-    const myArray = [];
-    Object.keys(argument).map(key => myArray.push(argument[key].id));
-    return myArray;
   }
+  const myArray = argument.map(item => (item.id));
+  return myArray;
 }
