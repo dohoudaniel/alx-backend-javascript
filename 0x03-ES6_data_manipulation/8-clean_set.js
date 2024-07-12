@@ -11,5 +11,6 @@ export default function cleanSet(set, startString) {
     }
   }
   // Join the final array with a hyphen and a resulting string
-  return cleanSet.join('-');
+  const finalString = cleanSet.join('-');
+  return finalString;
 }
