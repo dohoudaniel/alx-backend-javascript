@@ -1,5 +1,5 @@
 export default function getListStudentIds(argument) {
-  if (typeof argument !== 'array') {
+  if (typeof argument !== 'object') {
     return [];
   } else {
     const myArray = [];
