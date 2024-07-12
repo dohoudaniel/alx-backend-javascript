@@ -3,6 +3,7 @@ export default function cleanSet(set, startString) {
   if (!startString || startString.length === 0) {
     return '';
   }
+  /**
   const cleanSet = [];
   for (const value of set) {
     // Checking if value starts with startString
@@ -13,4 +14,9 @@ export default function cleanSet(set, startString) {
   // Join the final array with a hyphen and a resulting string
   const finalString = cleanSet.join('-');
   return finalString;
+  */
+  return [...set]
+    .filter((str) => (str !== undefined ? str.startsWith(startString) : ''))
+    .map((str) => (str !== undefined ? str.slice(startString.length) : ''))
+    .join('-');
 }
